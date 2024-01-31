@@ -1,0 +1,124 @@
+body{
+    background-image: url(/Projeto\ Final/assets/fundo2.png);
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container{
+    background-color: rgba(69, 87, 112, 0.9);
+    text-align: center;
+    width: 45rem;
+    height: 33.12rem;
+    margin: 5% auto 5% auto;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 40%;
+    margin-top: -4.375rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 5%;
+}
+
+.button-sim{
+    border: 2.5px solid #03a003;
+    padding: 2% 4%;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.button-sim:hover{
+    background-color: #03a003;
+}
+
+.button-nao{
+    border: 2.5px solid red;
+    padding: 2% 4%;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.button-nao:hover{
+    background-color: red;
+}
+
+@media (max-width: 780px) {
+    #container {
+        width: 30rem;
+        height: 38rem;
+        margin: 25% auto 25% auto;
+    }
+
+    .logo {
+        margin-top: -5%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 10%;
+        align-items: center;
+    }
+
+    .button-sim {
+        width: 2.5rem;
+    }
+
+    .button-nao {
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 415px) {
+    #container {
+        width: 24rem;
+        height: 32rem;
+        margin: 25% auto 25% auto;
+    }
+
+    .logo {
+        margin-top: -5%;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 45px;
+        margin-top: 10%;
+        align-items: center;
+    }
+
+    .button-sim {
+        width: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .button-nao {
+        width: 2.5rem;
+        font-size: 1.2rem;
+    }
+    
+}

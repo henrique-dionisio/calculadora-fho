@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./styles/estilo-calculator2.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@200&family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@200&family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+        <title>Calculadora de médias 1 - FHO</title>
+    </head>
+
+    <body>
+        <form>
+            <div id="container">
+                
+                <img class="logo" src="./assets/logo2.png" alt="logo da FHO">
+                <h1 class="title">Calcule as suas médias do semestre</h1>
+                <h2 class="subtitle">Tenha controle das suas notas!</h2>
+
+                <div id="notas">
+                    <div>
+                        <h3>Nota 1</h3>
+                        <input type="text" id="nota1">
+                    </div>
+
+                    <div>
+                        <h3>Nota 2</h3>
+                        <input type="text" id="nota2">
+                    </div>
+
+                    <div>
+                        <h3>Nota SPA</h3>
+                        <input type="text" id="nota3">
+                    </div>
+                </div>
+
+                <div>
+                    <button onclick="calcularMedia()" class="button">Calcular</button>
+                </div>
+
+                <p id="result"></p>
+            </div>
+        </form>
+
+        <script src="./scripts/app-calculator2.js"></script>
+        
+    </body>
+</html>
