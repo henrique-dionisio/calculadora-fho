@@ -32,13 +32,16 @@ function calcularMedia(){
     if (isNaN(nota2)){
         let nota2Minima = ((5 * 3) - nota1 * 1) / 2;
         resultElement.innerText = "Para passar com média 5, você precisa tirar pelo menos " + nota2Minima.toFixed(2) + " na Nota 2.";
+        resultElement.style.color = '#F6F6F6';
     }
 
     if (isNaN(nota1)){
         resultElement.innerText = "Preencha pelo menos a Nota 1 para que eu possa te ajudar 😉.";
+        resultElement.style.color = '#F6F6F6';
     }
 
     if(isNaN(nota1) && nota2 >= 0){
         resultElement.innerText = "Opa! Você precisa preencher a Nota 1.";
+        resultElement.style.color = '#F6F6F6';
     }
 }
