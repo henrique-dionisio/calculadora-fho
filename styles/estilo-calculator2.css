@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Projeto\ Final/assets/fundo2.png);
+    background-image: url(/Projeto\ Final/assets/fundo.png);
     background-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -81,7 +81,7 @@ p{
     font-weight: 600;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 750px) {
     #container {
         width: 28rem;
         height: 48rem;
@@ -121,6 +121,10 @@ p{
         margin-top: -1.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    .subtitle {
+        margin-top: 0.8rem;
     }
 
     #notas {
