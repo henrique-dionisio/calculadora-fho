@@ -1,3 +1,8 @@
+link[rel="shortcut icon"] {
+    width: 40px;
+    height: 40px;
+}
+
 body{
     background-image: url(../assets/fundo-claro.jpg);
     background-size: 75%;
@@ -8,7 +13,7 @@ body{
     background-color: rgba(69, 87, 112, 0.9);
     text-align: center;
     width: 45rem;
-    height: 33.12rem;
+    height: 34.5rem;
     margin: 5% auto 5% auto;
     border-radius: 10px;
 }
@@ -63,12 +68,13 @@ input:hover{
     height: 2.125rem;
     margin-top: 2.5rem;
     font-size: 1.125rem;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     background-color: #7bbaea;
     font-weight: bold;
     text-align: center;
     color: black;
     border-radius: 5px;
+    margin-bottom: 1rem;
 }
 
 .button:hover{
@@ -79,6 +85,17 @@ p{
     font-size: 1.13rem;
     color: aliceblue;
     font-weight: 600;
+}
+
+.resultado {
+    width: 41rem;
+    height: 4.8rem;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rodape{
@@ -114,10 +131,14 @@ body.dark-mode input:hover {
     border-color: #013ADF;
 }
 
+body.dark-mode .resultado {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 750px) {
     #container {
         width: 28rem;
-        height: 42rem;
+        height: 43rem;
         margin: 25% auto 25% auto;
     }
 
@@ -142,6 +163,11 @@ body.dark-mode input:hover {
         margin: -6rem auto;
         font-size: 0.8rem;
         margin-bottom: 1rem;
+    }
+
+    .resultado {
+        width: 24rem;
+        height: 6rem;
     }
 }
 
@@ -184,6 +210,11 @@ body.dark-mode input:hover {
         margin-top: -4.8rem;
         font-size: 0.6rem;
         margin-bottom: 1rem;
+    }
+
+    .resultado {
+        width: 22rem;
+        height: 6rem;
     }
 }
 

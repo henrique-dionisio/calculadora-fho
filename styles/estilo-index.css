@@ -1,3 +1,8 @@
+link[rel="shortcut icon"] {
+    width: 40px;
+    height: 40px;
+}
+
 body{
     background-image: url(../assets/fundo-claro.jpg);
     background-size: 75%;

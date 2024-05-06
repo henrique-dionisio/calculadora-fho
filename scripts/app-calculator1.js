@@ -14,13 +14,13 @@ function calcularMedia(){
 
     if (media >= 9) {
         resultElement.innerText += "\nUAU!! Você passou com êxito 🫡. Parabéns!! 🎉🥳";
-        resultElement.style.color = '#31B404';
+        resultElement.style.color = '#2A9403';
     } else if (media >= 6 && media < 9) {
         resultElement.innerText += "\nVocê passou, parabéns! 🎉";
         resultElement.style.color = '#2E9AFE';
     } else if (media >= 5 && media < 6) {
         resultElement.innerText += "\nUffa 😅. Essa foi por pouco, mas você conseguiu 👏🏼.";
-        resultElement.style.color = '#FE9A2E';
+        resultElement.style.color = '#D17F1E';
     } else if (media >= 3 && media < 5) {
         resultElement.innerText += "\nVocê não passou direto 😳. Mas calma, ainda há uma chance. Boa sorte na RE! 😉";
         resultElement.style.color = '#FFFF00';
