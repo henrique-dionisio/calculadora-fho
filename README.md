@@ -13,6 +13,7 @@ A **Calculadora de Médias - FHO** é uma ferramenta simples e eficaz desenvolvi
 - HTML
 - CSS
 - MediaQueries
+- Bootstrap
 - JavaScript
 
 ## 📱 Responsividade
