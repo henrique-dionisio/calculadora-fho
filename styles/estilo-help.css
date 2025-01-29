@@ -21,10 +21,7 @@ body{
     background-color: rgba(7, 21, 38, 0.9);
     text-align: center;
     width: 55%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.5);
 }
@@ -46,63 +43,40 @@ body{
     color: whitesmoke;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
+    margin-bottom: 2rem;
 }
 
-.buttons {
-    margin-top: 3rem;
-    text-align: center;
-    align-items: center;
+.help-calculo1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
-.btn-primary{
-    color: rgba(0, 0, 0, 0.874);
-    background-color: rgba(245, 245, 245, 0.5);
-    text-decoration: none;
-    text-align: center;
+.title-calculo1{
+    font-weight: 800;
     font-size: 1.2rem;
-    border: 2.5px solid white;
-    border-radius: 0.6rem;
-    padding: 0.6rem 1.2rem;
-    margin-bottom: 0.6rem;   
+    text-decoration: underline;
 }
 
-.btn-primary:hover {
-    background-color: green;
-    border-color: white;
-    color: aliceblue;
+.img-calculo1{
+    width: 40%;
+    padding-bottom: 1rem;
 }
 
-.help-media{
-    padding-top: 2rem;
+.texto-explicacao{
+    text-align: left;
 }
 
-.help-media-link{
-    font-size: 1rem;
-    color: whitesmoke;
+.help-calculo2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
-.help-media-link:hover{
-    color: green;
-}
-
-footer{
-    background-color: rgba(245, 245, 245, 0.5);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 25%;
-    margin: auto;
-    border-radius: 7px;
-}
-
-.rodape{
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.assinatura{
-    font-size: 0.8rem;
-    font-family: "Playwrite IN", serif;
-    font-weight: 600;
+.img-calculo2{
+    width: 47%;
+    padding-bottom: 1rem;
 }
 
 
@@ -123,6 +97,18 @@ footer{
         width: 35%;
     }
 }
+
+
+@media (max-width: 600px){
+    .img-calculo1{
+        width: 60%;
+    }
+
+    .img-calculo2{
+        width: 70%;
+    }
+}
+
 
 @media (max-width: 550px){
     #container{

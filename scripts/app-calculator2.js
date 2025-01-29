@@ -34,7 +34,7 @@ function calcularMedia(){
     }
 
     if (isNaN(nota3) && nota3Minima > 0){
-        resultElement.innerText = "Para passar com média 5, você precisa tirar pelo menos " + nota3Minima.toFixed(2) + " na Nota SPA.";
+        resultElement.innerText = "Para passar com média = 5.0, sua Nota SPA precisa ser no mínimo = " + nota3Minima.toFixed(2) + ".";
         resultElement.style.color = '#F6F6F6';
     }  
     

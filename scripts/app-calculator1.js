@@ -14,13 +14,13 @@ function calcularMedia(){
 
     if (media >= 9) {
         resultElement.innerText += "\nUAU!! Você passou com êxito 🫡. Parabéns!! 🎉🥳";
-        resultElement.style.color = '#2A9403';
+        resultElement.style.color = '#31B404';
     } else if (media >= 6 && media < 9) {
         resultElement.innerText += "\nVocê passou, parabéns! 🎉";
         resultElement.style.color = '#2E9AFE';
     } else if (media >= 5 && media < 6) {
         resultElement.innerText += "\nUffa 😅. Essa foi por pouco, mas você conseguiu 👏🏼.";
-        resultElement.style.color = '#D17F1E';
+        resultElement.style.color = '#FE9A2E';
     } else if (media >= 3 && media < 5) {
         resultElement.innerText += "\nVocê não passou direto 😳. Mas calma, ainda há uma chance. Boa sorte na RE! 😉";
         resultElement.style.color = '#FFFF00';
@@ -31,7 +31,7 @@ function calcularMedia(){
 
     if (isNaN(nota2)){
         let nota2Minima = ((5 * 3) - nota1 * 1) / 2;
-        resultElement.innerText = "Para passar com média 5, você precisa tirar pelo menos " + nota2Minima.toFixed(2) + " na Nota 2.";
+        resultElement.innerText = "Para passar com média = 5.0, sua Nota 2 precisa ser no mínimo = " + nota2Minima.toFixed(2) + ".";
         resultElement.style.color = '#F6F6F6';
     }
 
