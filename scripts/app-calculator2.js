@@ -53,3 +53,11 @@ function calcularMedia(){
         resultElement.style.color = '#F6F6F6';
     }
 }
+
+window.onload = function () {
+    document.getElementById("customAlert").style.display = "block";
+  };
+  
+  function fecharAlerta() {
+    document.getElementById("customAlert").style.display = "none";
+  }

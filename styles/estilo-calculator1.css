@@ -14,7 +14,65 @@ body{
     place-items: center; /* centraliza vertical e horizontalmente */
     height: 100vh; /* altura da viewport */
 }
+/* ----------CUSTOM ALERT------------------- */
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    background: black;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+  }
+  .custom-alert p {
+    margin-bottom: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+  }
 
+  .custom-alert span{
+    font-weight: 900;
+    color: white;
+  }
+
+  .custom-alert .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .custom-alert button {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .custom-alert .ok-btn {
+    background-color: #007BFF;
+    color: white;
+  }
+
+  .custom-alert .ok-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .custom-alert .dont-show-btn {
+    background-color: #ccc;
+  }
+
+  .custom-alert .dont-show-btn:hover {
+    background-color: #999;
+  }
+
+/* -------------------------------------------- */
 #container{
     background-color: rgba(7, 21, 38, 0.9);
     text-align: center;
